@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 const SUPABASE_URL = "https://kqaezucuyudszdqgsdgd.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtxYWV6dWN1eXVkc3pkcWdzZGdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0NDE5MzIsImV4cCI6MjA5NDAxNzkzMn0._tIRHUR4pBO1qz3K6Uercjn15PUh71AU1VVjfZizIJ8";
 const API = `${SUPABASE_URL}/rest/v1/tasks`;
 const HEADERS = { "Content-Type": "application/json", "apikey": SUPABASE_KEY, "Authorization"
 const MEMBERS = ["Алексей", "Мария", "Дмитрий", "Анна", "Иван"];
