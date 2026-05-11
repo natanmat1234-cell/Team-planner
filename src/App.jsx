@@ -10,7 +10,7 @@ const HEADERS = {
   "Prefer": "return=representation"
 };
 
-const MEMBERS = ["Алексей", "Мария", "Дмитрий", "Анна", "Иван"];
+const MEMBERS = ["Яна", "Моника", "Виктория", "Анна", "иное"];
 const PRIORITIES = ["Высокий", "Средний", "Низкий"];
 const STATUSES = ["В очереди", "В работе", "Готово"];
 
